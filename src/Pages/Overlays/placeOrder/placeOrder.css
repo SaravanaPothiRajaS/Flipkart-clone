@@ -1,0 +1,37 @@
+.overlay-buy{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px;
+    border-radius: 15px !important;
+    box-shadow: none;
+}
+.how-many-pr button{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 22px;
+    box-shadow: 0 0 10px rgb(167, 160, 160);
+    border: 0;
+}
+.how-many-pr button:hover{
+    box-shadow: none;
+    border: 1px solid #e0e0e0;
+}
+#onlyten{
+    color: red;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.op-div{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.op-div img{
+   width: 50%;
+   margin-top: -20px;
+}

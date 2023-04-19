@@ -1,0 +1,154 @@
+.pr-price-detail{
+    display: flex;
+   flex-direction: column;
+}
+.pr-price-detail p:nth-child(2){
+    color: gray;
+    text-decoration-line: line-through;
+    font-size: 1rem;
+    
+}
+.pr-price-detail p{
+    margin-top: 5px;
+    font-size: 0.6rem;
+}
+.pr-price-detail p:nth-child(3){
+    font-size: 15px;
+    font-weight: 600;
+    color: green;
+}
+.vc-cont{
+    width: 98%;
+    margin: 100px auto;
+    gap: 1%;
+    position: relative;
+}
+.vc-left-cont{
+    width: 20%;
+    height: 100vh;
+    box-shadow: 0 0 20px #ccc;
+    border-radius: 10px;
+    position: sticky;
+    top: 80px;
+}
+.vc-right-cont{
+    /* height: 280px; */
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgb(185, 183, 183);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+.vc-right-cont:hover,
+.dash-pr-card:hover{
+    background-color: #c0daf3;
+    transform: scale(1.01);
+    
+}
+
+
+.add-fav-btn{
+    width: 32px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 3px #ccc;
+    border: 1px rgb(150, 148, 148);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+.add-fav-btn:hover{
+    box-shadow: none;
+    border: 1px #ccc;
+}
+
+.add-fav-icon{
+    width: 20px;
+}
+.thump-fav{
+    width: 300px;
+    /* box-shadow: 0 0 20px rgb(173, 171, 171); */
+    border: 1px solid rgb(173, 171, 171);
+    padding: 10px;
+    border-radius: 10px;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.vc-l-img{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+aspect-ratio: 3/2;
+}
+.pr-spcs-deat{
+    width: 200px;
+}
+.pr-price-detail{
+    width: 200px;
+}
+.f-assur-img{
+    width: 40px;
+}
+.pr-fassur{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.offer-specs li{
+    /* margin-top: 1.5%; */
+    font-size: 0.7rem;
+}
+.bank-offer-txt{
+    color: green;
+    font-size: 18px;
+    font-weight: 600;
+}
+.free-dtxt{
+    font-weight: 500;
+}
+.star-btn{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #388e3c;
+    color: antiquewhite;
+    border-radius: 8px;
+    border: 0;
+    padding: 5px;
+    margin: 10px 0;
+}
+.star-icon{
+    width: 15px;
+}
+@media  (min-width:461px) and (max-width:768px) {
+.vc-right-cont{
+    width: 463px;
+}
+
+}
+@media  (min-width:260px) and (max-width:460px) {
+    .vc-right-cont{
+        width: 300px;
+    }
+    .thump-fav{
+        width: 100%;
+    }
+    .login-l{
+        display: none;
+    }
+    .login-r{
+        width: 100%;
+    }
+   
+}

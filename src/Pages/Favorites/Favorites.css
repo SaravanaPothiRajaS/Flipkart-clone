@@ -1,0 +1,86 @@
+.body-cont-fav{
+    width: 800px;
+    margin: 100px 0 0 10px;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+.fac-card-div{
+    display: flex;
+    flex-wrap: wrap;
+    padding:20px 30px;
+    border-bottom: 1px solid #e0e0e0;
+    gap: 5%;
+}
+.no-add{
+    font-size: 25px ;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.fav-remove-btn{
+    width: 110px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: red;
+    background-color: #fff;
+    border: 1px solid red;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.mw-h3{
+    padding: 30px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.fav-pr-img{
+    width: 150px;
+}
+.favimg{
+    width: 100%;
+    object-fit: contain;
+}
+.fav-cord-desc{
+    /* display: flex; */
+    width: 200px;
+}
+.online-txt{
+    white-space: nowrap;
+}
+.fav-price{
+    display: flex;
+    gap: 10px;
+}
+.fav-big-card{
+    background: #fff;
+}
+.fac-card-div{
+
+    margin-top: 20px;
+}
+@media  (min-width:461px) and (max-width:768px) {
+    
+    .body-cont-fav{
+        width: 80%;
+    }
+    .fav-remove-btn{
+        margin-top: 20px;
+    }
+}
+@media  (min-width:260px) and (max-width:480px) {
+    .body-cont-fav{
+        width: 80%;
+    }
+.fav-remove-btn{
+    margin-top: 20px;
+}
+.fav-cord-desc{
+    margin-top: 10px;
+}
+.fav-cord-desc{
+    font-size: 1rem;
+}
+   
+}
